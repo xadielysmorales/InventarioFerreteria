@@ -1,0 +1,14 @@
+Cómo trabajamos en este repositorio
+
+1. Nunca se programa directamente en main.
+2. Cada tarea vive en su propia rama: feature/<descripcion-corta>.
+3. Antes de empezar: git switch main y git pull.
+4. Mensajes de commit en español, en presente, con prefijo:
+   - feat: nueva funcionalidad
+   - fix: corrección de un error
+   - db: cambios en scripts SQL
+   - docs: documentación
+   - chore: configuración, estructura, limpieza
+5. Todo cambio entra a main mediante un **Pull Request** revisado por otro integrante.
+6. Un solo integrante edita cada formulario (*.Designer.vb) a la vez.
+7. Los scripts SQL no se editan una vez fusionados: los cambios nuevos van en un script con el siguiente número (04_...sql).
