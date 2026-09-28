@@ -1,0 +1,23 @@
+-- 5. Insertar Categorías básicas
+INSERT INTO categorias (id_categoria, nombre) VALUES
+(1, 'Herramientas manuales'),
+(2, 'Materiales eléctricos'),
+(3, 'Plomería'),
+(4, 'Pinturas');
+
+-- 6. Insertar Productos de prueba
+INSERT INTO productos (codigo, nombre, id_categoria, unidad, precio, existencia, activo) VALUES
+('HER-001', 'Martillo de uña 16 oz', 1, 'Unidad', 250.00, 15, 1),
+('HER-002', 'Destornillador Phillips 1/4x4', 1, 'Unidad', 85.00, 20, 1),
+('HER-003', 'Alicate universal 8 pulg', 1, 'Unidad', 180.00, 5, 1),
+('ELE-001', 'Cable THHN calibre 12', 2, 'Metro', 45.00, 100, 1),
+('ELE-002', 'Interruptor sencillo', 2, 'Unidad', 65.00, 30, 1),
+('ELE-003', 'Bujía LED 9 W', 2, 'Unidad', 120.00, 8, 1),
+('PLO-001', 'Tubo PVC 1/2 pulg x 6m', 3, 'Tubo', 150.00, 12, 1),
+('PLO-002', 'Codo PVC 1/2 pulg 90 deg', 3, 'Unidad', 15.00, 50, 1),
+('PLO-003', 'Pegamento PVC 4 oz', 3, 'Unidad', 110.00, 6, 1),
+('PIN-001', 'Pintura Látex Blanca 1 gal', 4, 'Galón', 850.00, 4, 1),
+('PIN-002', 'Brocha de cerda 3 pulg', 4, 'Unidad', 95.00, 18, 1),
+('PIN-003', 'Rodillo para pintar 9 pulg', 4, 'Unidad', 140.00, 10, 1),
+('HER-005', 'Cinta métrica 5m', 1, 'Unidad', 130.00, 25, 1),
+('ELE-004', 'Cinta aislante negra', 2, 'Unidad', 35.00, 40, 1);

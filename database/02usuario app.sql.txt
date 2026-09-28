@@ -1,0 +1,6 @@
+-- 4. Crear el usuario de acceso para la aplicación
+CREATE USER IF NOT EXISTS 'ferre_app'@'%' IDENTIFIED BY 'Ferreteria2024*';
+GRANT ALL PRIVILEGES ON ferreteria_db.* TO 'ferre_app'@'%';
+CREATE USER IF NOT EXISTS 'ferre_app'@'localhost' IDENTIFIED BY 'Ferreteria2024*';
+GRANT ALL PRIVILEGES ON ferreteria_db.* TO 'ferre_app'@'localhost';
+FLUSH PRIVILEGES;
